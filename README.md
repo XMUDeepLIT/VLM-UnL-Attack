@@ -10,6 +10,14 @@ Install dependencies before running the examples:
 pip install -r requirements.txt
 ```
 
+Download LlamaFactory from the released ors repository provided with the artifact, then place it under `src/LlamaFactory`:
+
+```bash
+git clone <ANONYMOUS_LLAMAFACTORY_URL> src/LlamaFactory
+```
+
+If you receive LlamaFactory as an archive instead, extract it so that the package root is `src/LlamaFactory`.
+
 ## One-Command Launch
 
 Run both IND and OOD retrain attacks:
@@ -38,7 +46,6 @@ METHOD_NAMES="UNDIAL SatImp" bash run_vgg_retrain.sh ood
 - `scripts/vgg/vgg_test_retrain_ood.sh`
 - `src/test/vgg_test_retrain_ind.py`
 - `src/test/vgg_test_retrain_ood.py`
-- `src/LlamaFactory/`
 - `requirements.txt`
 
 ## External Inputs
