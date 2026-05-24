@@ -10,7 +10,7 @@ Install dependencies before running the examples:
 pip install -r requirements.txt
 ```
 
-Download LlamaFactory from the released repository provided with the artifact, then place it under `src/LlamaFactory`:
+Download LlamaFactory from the released repository, then place it under `src/LlamaFactory`:
 
 ```bash
 git clone <ANONYMOUS_LLAMAFACTORY_URL> src/LlamaFactory
